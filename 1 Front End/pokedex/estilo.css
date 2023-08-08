@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/02/detetive-pikachu.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    }
+    
+    .painel{
+    height: 800px;
+    width: 500px;  
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 10px 5px rgb(56, 56, 56);
+    }
+
+    #entrada{
+        background-color: rgb(76, 0, 255);
+        height: 42px;
+        color: rgb(240, 236, 236);
+        border-radius: 10px;
+        border: none;
+        width: 42px;
+    }
+    #entrada:hover{
+        background-color: rgb(241, 235, 235);
+    
+    }
+    #entrada{
+        background-color: rgb(245, 237, 237);
+        height: 42px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 422px;
+        animation: cor 10s alternate infinite;
+    }
+    @keyframes cor {
+    0%{
+        background-color: rgb(0, 255, 255);
+    }
+    25%{
+        background-color: rgb(0, 68, 255);
+    }
+    
+    50%{
+        background-color: rgb(0, 13, 128);
+    }
+    75%{
+        background-color: rgb(0, 17, 255);
+    }
+    100%{
+        background-color: rgb(20, 149, 255);
+        height: -100px;
+    }
+    }
+    #botao{
+      
+        background-color: rgb(76, 0, 255);
+        height: 42px;
+        color: rgb(240, 236, 236);
+        border-radius: 10px;
+        border: none;
+        width: 42px;
+    }
+    #botao:hover{
+        background-color: rgb(241, 235, 235);
+    
+    }
+    #botao{
+        background-color: rgb(245, 237, 237);
+        height: 42px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 42px;
+        animation: cor 10s alternate infinite;
+    }
+    @keyframes cor {
+    0%{
+        background-color: rgb(98, 102, 102);
+    }
+    25%{
+        background-color: rgb(224, 228, 236);
+    }
+    
+    50%{
+        background-color: rgb(134, 135, 139);
+    }
+    75%{
+        background-color: rgb(92, 93, 97);
+    }
+    100%{
+        background-color: rgb(117, 124, 131);
+        height: -100px;
+    }
+    }

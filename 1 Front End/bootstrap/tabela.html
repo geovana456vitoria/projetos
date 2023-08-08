@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Tabela</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1>Teste de tabela com jquery</h1>
+
+    <table id="tabela">
+        <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th> Nome</th>
+                <th> Idade</th>
+                <th> Endereço</th>
+                <th> Telefone</th>
+                <th> Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> Fabio </th>
+                <th> 30 anos </th>
+                <th> Rua 11 de setembro </th>
+                <th> 44 99922-8922 </th>
+                <th> Maringá </th>
+            </tr>
+
+            <tr>
+                <th> Felipe </th>
+                <th> 35 anos </th>
+                <th> Rua Juscelino Kubitchek </th>
+                <th> 44 99749-8722 </th>
+                <th> Paranavaí </th>
+            </tr>
+
+            <tr>
+                <th> Valdomiro </th>
+                <th> 39 anos </th>
+                <th> Rua 1 de abril </th>
+                <th> 44 99154-8342 </th>
+                <th> Rosana </th>
+            </tr>
+
+            <tr>
+                <th> Victor </th>
+                <th> 25 anos </th>
+                <th> Rua Presidente Prudente </th>
+                <th> 44 99687-7654 </th>
+                <th> Londrina </th>
+            </tr>
+
+            <tr>
+                <th> Joacir </th>
+                <th> 38 anos </th>
+                <th> Rua 1 de Janeiro </th>
+                <th> 44 99176-8942 </th>
+                <th> Santa Izabel </th>
+            </tr>
+
+            <tr>
+                <th> Luiz </th>
+                <th> 77 anos </th>
+                <th> Rua Faz o "L" </th>
+                <th> 44 99798-9755 </th>
+                <th> Aqui tinha 10 </th>
+            </tr>
+
+            <tr>
+                <th> Inácio </th>
+                <th> 77 anos </th>
+                <th> Rua Cadê? </th>
+                <th> Inexistente </th>
+                <th> Agora tem 9 </th>
+            </tr>
+
+        </tbody>
+    </table>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#tabela').DataTable();
+        });
+
+
+        var table = new DataTable('#tabela', {
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-PT.json',
+            },
+        });
+
+    </script>
+
+</body>
+
+</html>

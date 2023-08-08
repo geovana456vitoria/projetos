@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwoa7A5rUMNz_nGSoEVVdOBkVhAorzV1u9gg&usqp=CAU);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    }
+    
+    .painel{
+    height: 800px;
+    width: 500px;  
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    color: rgb(247, 237, 237);
+    box-shadow: 5px 5px 10px rgb(241, 238, 238);
+    }
+    
+    #moeda{
+        height: 35px;
+        width: 300px;  
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #botao{
+      
+        background-color: rgb(76, 0, 255);
+        height: 42px;
+        color: rgb(240, 236, 236);
+        border-radius: 10px;
+        border: none;
+        width: 42px;
+    }
+    #botao:hover{
+        background-color: rgb(241, 235, 235);
+    
+    }
+    #botao{
+        background-color: rgb(245, 237, 237);
+        height: 42px;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        width: 42px;
+        animation: cor 10s alternate infinite;
+    }
+    @keyframes cor {
+    0%{
+        background-color: rgb(0, 255, 255);
+    }
+    25%{
+        background-color: rgb(0, 68, 255);
+    }
+    
+    50%{
+        background-color: rgb(0, 13, 128);
+    }
+    75%{
+        background-color: rgb(0, 17, 255);
+    }
+    100%{
+        background-color: rgb(20, 149, 255);
+        height: -100px;
+    }
+    }
+    
+     
+    
+    
+    

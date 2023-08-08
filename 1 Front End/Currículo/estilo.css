@@ -1,0 +1,43 @@
+
+            .foto {
+                  border: 5px solid rgb(180, 180, 202) (0,89,255);
+                  border-radius: 100%;
+             }
+             
+             body{
+                  background-image: linear-gradient(to left, rgb(69, 73, 77), rgb(82, 87, 133));
+                   text-align: center ;
+             }
+             
+              ul{
+                  list-style: none;
+             }
+             
+             .menu{
+              background-color: slategray;
+              border-radius: 30px;
+             }
+             
+             .menu ul li {
+                display: inline;
+             }
+             .menu ul li a {
+               color: rgb(80, 80, 160);
+               padding:20px;
+               display: inline-block;
+               text-decoration: none;
+             }
+             
+             
+             .menu ul li a:hover {
+                 background-color:rgb(121, 88, 197); 
+                 font-size: 20px;
+                 border-radius: 20px;
+                 transition-duration: 2s;
+             }
+             .tabela{
+                  text-align: left ;
+                  background-color: rgb(69, 73, 77);
+                  color: rgb(255, 255, 255);
+                 font-family: monospace;
+                }

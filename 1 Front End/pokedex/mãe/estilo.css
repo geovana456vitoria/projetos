@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-floral-background_23-2149026397.jpg?w=2000);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'franklin Gothinc Medium Narrow', Arial, sans-serif;
+}
+
+.painel{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top:  70px;
+    border: 1px solid rgb(24, 22, 22);
+}
+
+.botao{ 
+    background-color: rgb(7, 8, 8);
+    color:rgb(181, 203, 223);
+    border: none;
+    height:40px;
+    width: 60px;
+    border-radius: 10px;
+}

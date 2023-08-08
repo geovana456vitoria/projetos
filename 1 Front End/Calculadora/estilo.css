@@ -1,0 +1,37 @@
+.painel{
+    border : 2px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;  /*margem Esquerda*/
+    margin-right: auto; /*margem Direita*/
+    text-align: center;
+    border-radius: 20px;
+    font-family: cursive;
+    }
+   
+    input {
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    }
+   
+    #resultado{
+    font-size: 50px;
+    color: rgb(158, 95, 230);
+    font-weight: bold;
+    }
+
+
+    body{ 
+        background-image: linear-gradient( to left, black ( 218, 220,225), blue( 95,95,95));
+    }
+
+    .botao { 
+        background-color: rgb(99, 90, 102);
+        border-radius: 10px;
+        color: rgb(0, 7, 7);
+    }
+    .botao :hover{
+
+    }

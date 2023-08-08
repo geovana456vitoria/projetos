@@ -1,0 +1,67 @@
+.jogo {
+    width:200px ;
+    height:200px ;
+    text-align:  center;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+.jogo{
+    background:rgb(102, 102, 231) ;
+    color: rgb(242, 242, 243);
+}
+
+body{ 
+    background: rgb(84, 84, 92);
+}
+
+button{ 
+    background-color: azure(136,136,136);
+    border-radius: 10px;
+
+}
+
+button:hover{ 
+    background-color: black;
+
+}
+#q1{ 
+  background-color: rgb(15, 15, 15);
+}
+
+#q2{ 
+    background-color: rgb(252, 246, 246);
+
+}
+#q3{ 
+    background-color: rgb(19, 18, 18);
+
+}
+#q4{ 
+    background-color: rgb(248, 246, 246);
+
+}
+#q5{ 
+    background-color: rgb(17, 17, 17);
+
+}
+
+#q6{ 
+    background-color: rgb(240, 236, 236);
+
+}
+#q7{ 
+
+    background-color: rgb(12, 12, 12);
+
+}
+#q8{ 
+    background-color: rgb(252, 248, 248);
+
+}
+#q9{ 
+    background-color: rgb(3, 3, 3);
+
+}

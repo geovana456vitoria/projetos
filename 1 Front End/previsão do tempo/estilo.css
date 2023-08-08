@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://services.meteored.com/img/article/entenda-o-zigue-zague-dos-raios-e-a-razao-de-percorrerem-esse-caminho-1672845169259_1280.jpeg);
+    background-size: cover;
+    font-size: 20px;
+}
+
+.painel{
+    height: 800px;
+    width: 500px;   
+
+border-radius: 20px;
+text-align: center;
+margin: auto;
+color: white;
+box-shadow: 5px 5px 10px rgb(12, 12, 12);
+}
+
+#cidade{
+    height: 35px;
+    width: 300px; 
+    border-radius:  10px;
+    border:  none;
+    text-align:  center ;
+
+}
+
+#botao{
+    background-color: rgb(16, 97, 202);
+    height: 42px;
+    color: azure;
+    border-radius: 10px;
+    border: none;
+    width:  42px;
+}
+#botao:hover{
+    background-color: rgb(14, 14, 14);
+    transition: 2s;
+}
+
+.imgTempo{
+    animation: voltar 4s alternate infinite;
+}
+@keyframes voltar{
+0%{
+        transform: translateX(0px);
+}
+25%{
+    transform: translateX(100px);
+}
+
+50%{
+    transform: translateX(-100px);
+}
+75%{
+    transform: translateX(200px);
+}
+100%{
+    transform: translateX(-200px);
+}
+}
+#botao{
+    background-color: rgb(221, 24, 24);
+    height: 42px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 42px;
+    animation: cor 10s alternate infinite;
+}
+@keyframes cor {
+0%{
+    background-color: red;
+}
+25%{
+    background-color: yellow;
+}
+
+50%{
+    background-color: green;
+}
+75%{
+    background-color: blue;
+}
+100%{
+    background-color: deeppink;
+    height: -100px;
+}
+}

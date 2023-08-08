@@ -1,0 +1,13 @@
+body{
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.painel{
+    background-color: azure;
+    width: 400px; /*largura*/
+height: 400px; /* altura*/
+padding-left: 150px;
+
+margin-left: auto;
+}
